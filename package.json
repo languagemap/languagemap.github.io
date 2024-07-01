@@ -1,0 +1,17 @@
+{
+	"dependencies": {
+		"@locale-tools/countries": "^0.2.5",
+		"world-geojson": "^3.0"
+	},
+	"name": "langmap",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "Show countries that you can visit depending on languages you know",
+	"main": "scripts/generate-dataset.js",
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "MIT"
+}
