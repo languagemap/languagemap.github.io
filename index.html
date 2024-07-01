@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Languages Map </title>
+	<meta name="description"
+		content="Choose languages you speak and discover how many countries you can visit, in which this language is spoken.">
+	<link href="data:" rel="icon">
+	<link href="styles.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/cash-dom/dist/cash.min.js"></script>
+	<script type=module src="script.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1> Spoken Language Map </h1>
+		<p>
+			Select the languages you speak and find out how many countries
+			you can visit where that language is spoken.
+		</p>
+		<ul id=languages>
+			<li>Klington</li>
+			<li>Romulan</li>
+			<li id=addlang>+</li>
+		</ul>
+	</header>
+	<main>
+		<svg id=langmap viewBox="0 0 2520 1080" xmlns="http://www.w3.org/2000/svg">
+		</svg>
+	</main>
+	<footer>
+		<p>Made by hvox on Jule 1, 2024.</p>
+	</footer>
+
+	<div id=popup>
+		<input id="new-language-select" list="language-list">
+		<datalist id="language-list">
+		</datalist>
+	</div>
+</body>
+
+</html>
