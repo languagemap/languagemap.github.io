@@ -31,7 +31,7 @@ $(function () {
 		}
 	});
 
-	fetch("data/countries.json?" + Math.random())
+	fetch("data/countries.json")
 		.then((response) => response.json())
 		.then((json) => initializeCountries(json));
 });
